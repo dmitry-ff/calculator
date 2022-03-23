@@ -1,6 +1,7 @@
 import React from "react";
+import CalculatorWindow from "./CalculatorWindow";
 
 
-const Calculator = () => {
-  return <div>Here should be a calculator</div>
+export default function App() {
+  return <CalculatorWindow />
 }
